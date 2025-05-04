@@ -1,0 +1,2 @@
+# kousaku
+https://chatgpt.com
