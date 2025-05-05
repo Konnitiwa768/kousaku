@@ -16,6 +16,7 @@ public class ItemRegistrypart1 {
     public static final Item BUHIN5 = register("buhin5", new Item(new Item.Settings()));
 
     public static final Item DANBORU_WHIP = register("danboru_whip", new CardboardWhip());
+    public static final Item POLE_PICKAXE = register(pole_pickaxe", new PolePickaxe());
 
     private static Item register(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(KousakuMod.MOD_ID, name), item);
